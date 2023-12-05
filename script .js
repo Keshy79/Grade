@@ -26,7 +26,7 @@ function  checkvalue() {
             songToPlay.play()
         }else if (num.value < 0 ) {
             console.log("E-FAIR")
-            show.innerHTML = "Dey play"
+            show.innerHTML = "Dey play Just Dey play😋😜🤪"
             EFail.play()
         }else if (num.value >= 30 && num.value <45) {
             console.log("E-FAIR")
