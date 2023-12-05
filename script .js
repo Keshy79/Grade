@@ -24,6 +24,10 @@ function  checkvalue() {
             console.log("F-FAIL")
             show.innerHTML = "F-FAIL😢🥹🙈"
             songToPlay.play()
+        }else if (num.value < 0 ) {
+            console.log("E-FAIR")
+            show.innerHTML = "Dey play"
+            EFail.play()
         }else if (num.value >= 30 && num.value <45) {
             console.log("E-FAIR")
             show.innerHTML = "E-FAIR 😢😒"
@@ -43,6 +47,10 @@ function  checkvalue() {
         }else if (num.value >= 80 && num.value <=100) {
             console.log("A-EXCELLENT")
             show.innerHTML = "A-EXCELLENT🤩🥰🤣"
+            songA.play()
+        }else if (num.value > 100 ) {
+            console.log("Enter your Correct Score")
+            show.innerHTML = "Enter your Correct Score"
             songA.play()
         }
     }
