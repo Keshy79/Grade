@@ -1,20 +1,20 @@
-var song = "audio/fucx.mp3"
-var songToPlay = new Audio(song)
+var song1 = "Audio/fucx.mp3"
+var songToPlay = new Audio(song1)
 
-var song = "audio/mumu.mp3"
-var EFail = new Audio(song)
+var song2 = "Audio/mumu.mp3"
+var EFail = new Audio(song2)
 
-var song = "audio/songD.mp3"
-var songD = new Audio(song)
+var song3 = "Audio/songD.mp3"
+var songD = new Audio(song3)
 
-var song = "audio/songC.mp3"
-var songC = new Audio(song)
+var song4 = "Audio/songC.mp3"
+var songC = new Audio(song4)
 
-var song = "audio/songB.mp3"
-var songB = new Audio(song)
+var song5 = "Audio/songB.mp3"
+var songB = new Audio(song5)
 
-var song = "audio/songA.mp3"
-var songA = new Audio(song)
+var song6 = "Audio/songA.mp3"
+var songA = new Audio(song6)
 
 
 
